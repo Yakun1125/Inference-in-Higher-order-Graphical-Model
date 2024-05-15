@@ -5,9 +5,10 @@ This repository is dedicated to exploring LP relaxations for image denoising, pa
 
 ## Repository Structure
 - **CRAMA/**: Contains synthetic matrices for three types of images:
-  - **CEN**: Centralized patterns.
-  - **TL**: Top-left patterns.
-  - **CROSS**: Cross patterns.
+  - **CEN**: Center rectangle.
+  - **TL**: Top-left rectangle.
+  - **CROSS**:
+
   Each pattern type is available in two sizes: 15x15 and 100x100 pixels.
 
 - **QR_train_set/**: A collection of 50x50 QR codes, each encoded with random information. These QR codes are used to learn potential values for image denoising tasks.
