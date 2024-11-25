@@ -795,7 +795,6 @@ void decoder::parLP(generator* input_code, int print_level, std::string output_f
 
 	int num_graph = input_code->get_check_matrix().size();
 	int num_bit = input_code->get_check_matrix()[0].size();
-
 	GRBEnv env = GRBEnv(true);
 	GRBVar* zv = 0;
 	env.set(GRB_IntParam_OutputFlag, 0);
@@ -983,7 +982,6 @@ void decoder::parLP(generator* input_code, int print_level, std::string output_f
 
 	// clean up
 	delete[] zv;
-
 }
 
 void decoder::cliqueLP(generator* input_code, int print_level, std::string output_file, std::string version, int num_trials) {

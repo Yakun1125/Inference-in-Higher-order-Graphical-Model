@@ -14,7 +14,7 @@ public:
 	std::vector<int> get_noisy_code();
 
 	void generate_LDPC(int clique_size, int num_density, int num_block, std::string path);
-	void generate_CODE(int num_bit, std::string path);
+	void generate_CODE(int num_bit, int num_trials, std::string path);
 	void read_LDPC(std::string filename, int clique_size, int num_density, int num_block);
 	void read_code(std::string filename, int num_bit);
 

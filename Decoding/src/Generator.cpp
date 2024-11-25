@@ -2,6 +2,7 @@
 #include <random>
 #include <fstream>
 #include <iostream>
+#include <algorithm>
 
 generator::generator(int num_bit) {
 	// intialize everything
@@ -30,12 +31,12 @@ std::unordered_map<std::string, int> generator::get_mapping() {
 	return mapping;
 }
 
-void generator::generate_CODE(int num_bit, std::string path) {
+void generator::generate_CODE(int num_bit, int num_trials, std::string path) {
 	std::string filename;
 	// generate codeword sequence
 	for (int co = 0; co < 31; co++) {
 		double corrupt = 0.00 + co * 0.01;
-		for (int num_sol = 0; num_sol < 400; num_sol++) {
+		for (int num_sol = 0; num_sol < num_trials; num_sol++) {
 			filename = path;
 			filename += "code_" + std::to_string(num_bit) + "_" + std::to_string(corrupt) + "_" + std::to_string(num_sol) + ".txt";
 
