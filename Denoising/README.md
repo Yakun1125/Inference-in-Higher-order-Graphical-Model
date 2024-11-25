@@ -13,6 +13,8 @@ This repository is dedicated to exploring LP relaxations for image denoising, pa
 
 - **QR_train_set/**: A collection of 50x50 QR codes, each encoded with random information. These QR codes are used to learn potential values for image denoising tasks.
 
-- **Denoising_Experiments.ipynb**: An interactive Jupyter Notebook that includes all necessary experiments to demonstrate the denoising methods developed in this project.
+- **qr_200_100.txt**: A 200x200 QR code used for testing the denoising methods.
 
-- **Test_QR_Code.png**: A 200x200 QR code used for testing the denoising methods.
+- **CRAMA_denoising.ipynb**: An Jupyter Notebook that includes all necessary steps to reproduce the experiments on synthetic images.
+
+- **QR_code_denoising.ipynb**: An Jupyter Notebook that includes all necessary steps to reproduce the experiments on QR code denoising.
