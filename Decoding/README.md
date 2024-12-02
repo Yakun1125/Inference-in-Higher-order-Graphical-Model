@@ -59,18 +59,22 @@ The results reported in the paper were using parity check matrix in folder **len
   <img src="results/60_4_3_tightness.png" width="400" />
   <img src="results/60_4_3_recovery.png" width="400" />
 </p>
+<p style="text-align: center"><em>(60,4,3) LDPC</em></p>
 
 <p float="left">
   <img src="results/120_4_3_tightness.png" width="400" />
   <img src="results/120_4_3_recovery.png" width="400" />
 </p>
+<p style="text-align: center"><em>(120,4,3) LDPC</em></p>
 
 <p float="left">
   <img src="results/120_5_4_tightness.png" width="400" />
   <img src="results/120_5_4_recovery.png" width="400" />
 </p>
+<p style="text-align: center"><em>(120,5,4) LDPC</em></p>
 
 <p float="left">
   <img src="results/120_6_5_tightness.png" width="400" />
   <img src="results/120_6_5_recovery.png" width="400" />
 </p>
+<p style="text-align: center"><em>(120,6,5) LDPC</em></p>
